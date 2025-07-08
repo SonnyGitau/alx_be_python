@@ -14,6 +14,6 @@ match priority:
          reminder = f"Reminder: You have a task - '{task}' with unspecified priority."
      # Modify message if the task is time-bound
 if time_bound == "yes":  
-    reminder += " This is time-sensitive and requires immediate attention today!"
+    reminder += " This is time-sensitive that requires immediate attention today!"
 # Print the customized reminder
 print(reminder)
