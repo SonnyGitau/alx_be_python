@@ -1,4 +1,3 @@
-# Global conversion factors
 FAHRENHEIT_TO_CELSIUS_FACTOR = 5 / 9
 CELSIUS_TO_FAHRENHEIT_FACTOR = 9 / 5
 
@@ -12,7 +11,7 @@ def convert_to_fahrenheit(celsius):
 
 def main():
     try:
-        temperature = float(input("Enter the temperature value: "))
+        temperature = float(input("Enter the temperature to convert : "))
     except ValueError:
         raise ValueError("Invalid temperature. Please enter a numeric value.")
 
