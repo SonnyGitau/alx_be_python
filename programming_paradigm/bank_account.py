@@ -20,7 +20,7 @@ class BankAccount:
             return True
 
     def display_balance(self):
-        print(f"Current balance: ${self._account_balance:.2f}")
+        print(f"Current Balance: ${self._account_balance:.2f}")
 
     def get_balance(self):
         """Getter method for unit testing or external read access."""
