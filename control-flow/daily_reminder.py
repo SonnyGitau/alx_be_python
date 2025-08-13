@@ -1,7 +1,7 @@
 #prompt for user input
-task = input("Enter your task ")
-priority = input("Priority (high, medium, low) ")
-time_bound = input("Is the task time-bound? (yes or no) ")
+task = input("Enter your task: ")
+time_bound = input("Is the task time-bound? (yes or no): ")
+priority = input("Priority (high, medium, low): ")
 # Provide a customized reminder using match case
 match priority:
     case "high":
